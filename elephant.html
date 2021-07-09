@@ -53,7 +53,7 @@
       }
       .col-2 {
         width: 50%; 
-        padding: 0em 2em ;                      
+        padding-right: 2em;                     
       }
       .col-3 {
         width: 75%; 
@@ -64,6 +64,11 @@
         padding: .5em;
         color: #fff;
       }
+      @media only screen and (max-width: 700px) {
+    [class*="col-"] {
+    width: 100%;
+    text-align: left;
+  }
     </style>
   </head>
 
@@ -73,7 +78,7 @@
     <img src="elephant.jpg" alt="Elphant Herd" width="100%" height="700em"><br>
     <div class="columns">
       <div class="col col-1">
-        <h2>Dolor Sit</h2>
+        <h2><b>Dolor Sit</b></h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -82,7 +87,7 @@
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>        
       </div>
       <div class="col col-2">
-        <h2>Consectetur adipiscing</h2>
+        <h2><b>Consectetur adipiscing</b></h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -102,7 +107,7 @@
 
     <div class="columns flex-start">
       <div class="col col-3">
-        <h2>Deserunt mollit anim id est laborum</h2>
+        <h2><b>Deserunt mollit anim id est laborum</b></h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
