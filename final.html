@@ -75,15 +75,7 @@
       padding-bottom: 0.5rem;
       color: whitesmoke;
     } 
-    .footer {
-      position: initial;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 17rem;
-      background-color: black;      
-    }
-    ul li a {
+       ul li a {
       color: grey;
       text-decoration: none;
     }
@@ -244,44 +236,51 @@
   <hr>     
 </div>
 
-<div class="container pb-5">
-  <p class="text-center fw-bold py-4">Stay connected with us. Join the newslettter to receive fresh info.</p>
-  <div class="center">
-    <form class="form-inline">
-      <input class="mx-1 px-3" type="text" placeholder="Your Name">
-      <input class="mx-1 px-3" type="email" placeholder="Your Email">        
-      <button type="submit" class="btn btn-primary btn-sm">Join Now!</button>
+<div class="container">
+  <p class="text-center fw-bold">Stay connected with us. Join the newslettter to receive fresh info.</p>
+  <form class="form-inline center align-auto">
+  <div class="row">
+    <div class="col-sm-4 px-1">
+      <input class="form-control" type="text" placeholder="Your Name">
+      </div>
+    <div class="col-sm-4 px-1">
+      <input class="form-control" type="email" placeholder="Your Email">  
+      </div>
+    <div class="col-4">      
+      <button type="submit" class="btn btn-primary btn-sm-3">Join Now!</button>
+      </div>
       </form>
     </div>
   </div>
 
-  <footer class="footer mt-5">
+  <footer class="mt-5 bg-dark">
   <div class="container"> 
     <div class="row">
-      <div class="col-3 pt-4">
+
+      <div class="col-lg-3 col-sm-2">
         <img src="images/logo.png" class="img-fluid">
       </div>
-      <div class="col-9">
-        <ul class="ul-float list-unstyled">
+      <div class="col-lg-9">
+        <ul class="col- ul-float list-unstyled">
           <li class="li-1 fw-bold">The company</li>
           <li><a href="#">Documentation</a></li>
           <li><a href="#">Packt publisher</a></li>
           <li><a href="#">About us</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <ul class="ul-float list-unstyled">
+        <ul class="col- ul-float list-unstyled">
           <li class="li-1 fw-bold">Social</li>
           <li><a href="#">Facebook</a></li>
           <li><a href="#">Twitter</a></li>
           <li><a href="#">Blog</a></li>
         </ul>
-        <ul class="ul-float list-unstyled">
+        <ul class="col- ul-float list-unstyled">
           <li class="li-1 fw-bold">Support</li>
           <li><a href="#">Privacy police</a></li>
           <li><a href="#">Terms & condition</a></li>
           <li><a href="#">Help desk</a></li>
         </ul>
-        <ul class="ul-float list-unstyled">
+        <ul class="col- ul-float list-unstyled">
           <li class="li-1 fw-bold">Name, Inc.</li>
           <li style="color:grey;">Address line 1<br>Address line 2<br>P: (123) 456-7890</li>
         </ul>
